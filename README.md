@@ -72,7 +72,7 @@ python3 traffic_load_simulator.py optimized
 
 <img width="1470" height="837" alt="Screenshot 2026-09-26 at 1 03 32 PM" src="https://github.com/user-attachments/assets/ea5c7549-40c0-47eb-9757-440a984a0120" />
 
-Amazon CloudWatch Omni is an AI-powered, collaborative observability environment built directly on open telemetry standards.Unlike the legacy AWS CloudWatch console which relies on engineers manually constructing separate dashboards, running complex log insight queries, and manually mapping cross-resource relationships—Omni acts as an automated, conversational DevOps co-pilot.
+Amazon CloudWatch Omni is an AI-powered, collaborative observability environment built directly on open telemetry standards.Unlike the legacy AWS CloudWatch console which relies on engineers manually constructing separate dashboards, running complex log insight queries, and manually mapping cross-resource relationships Omni acts as an automated, conversational DevOps co-pilot.
 
 ## What It Does
 It eliminates the friction of writing manual queries. You can query your logs, infrastructure traces, application metrics, and AI agent token runaways simultaneously by simply asking questions in plain English.
