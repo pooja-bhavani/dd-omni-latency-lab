@@ -69,7 +69,21 @@ python3 traffic_load_simulator.py optimized
 ---
 
 ## What is CloudWatch Omni
+
+<img width="1470" height="837" alt="Screenshot 2026-09-26 at 1 03 32 PM" src="https://github.com/user-attachments/assets/ea5c7549-40c0-47eb-9757-440a984a0120" />
+
 Amazon CloudWatch Omni is an AI-powered, collaborative observability environment built directly on open telemetry standards.Unlike the legacy AWS CloudWatch console—which relies on engineers manually constructing separate dashboards, running complex log insight queries, and manually mapping cross-resource relationships—Omni acts as an automated, conversational DevOps co-pilot.
+
+## What It Does
+It eliminates the friction of writing manual queries. You can query your logs, infrastructure traces, application metrics, and AI agent token runaways simultaneously by simply asking questions in plain English.
+
+## How We Used 
+It in This LabIn our replication workspace, we launched a dedicated CloudWatch Omni Space named OrderPipelineAnalytics and linked it directly to our account's us-east-1 dataset integration engine.Instead of opening traditional graph filters, we used Omni's conversational prompt bar as our primary incident response room. We intentionally threw a massive parallel traffic surge at our code to see if the Omni AI agent could intercept the resulting database throttling logs, diagnose the hidden database scanning bottleneck, and write out a remediation path autonomously using raw conversational queries.
+
+<img width="1470" height="542" alt="Screenshot 2026-09-26 at 1 15 56 PM" src="https://github.com/user-attachments/assets/19eefe95-c21d-4723-8458-431347ff8276" />
+
+<img width="1470" height="837" alt="Screenshot 2026-09-26 at 1 16 17 PM" src="https://github.com/user-attachments/assets/d1165e75-76bb-42ab-97db-ce743271a09a" />
+
 
 ## Resource Teardown Clean-up
 To prevent ongoing charges, remove the deployed assets cleanly:
